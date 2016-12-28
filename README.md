@@ -2,6 +2,8 @@
 
 ## Author
  * BeckyR
+
+## Contributors
  * Michael Ouellette
 
 ## What's New
