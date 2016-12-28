@@ -12,7 +12,7 @@
  *
  */
 metadata {
-	definition (name: "Hook", namespace: "smartthings", author: "BeckyR") {
+	definition (name: "Hook", namespace: "smartthings", author: "BeckyR, MichaelOuellette") {
 		capability "Switch"
 	}
 
@@ -39,8 +39,9 @@ def off() {
 }
 
 private put(toggle) {
+    def deviceIds = device.deviceNetworkId.split(',')
 	def params = [
-    uri: "https://api.gethook.io/v1/device/trigger/${device.deviceNetworkId}/${toggle}/?token=2b008ff1b36bca378d813a6413e13fd2"
+    uri: "https://api.gethook.io/v1/device/trigger/${deviceIds[1]}/${toggle}/?token=${deviceIds[0]}"
 ]
-    httpGet(params) 
+    httpGet(params)
 }
