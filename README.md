@@ -2,12 +2,14 @@
 
 ## Author
  * BeckyR
-
-## Contributors
  * Michael Ouellette
 
 ## What's New
+ * Folder structure update to add device handler to list
  * deviceNetworkId now requires a comma separated item "<i>your-hook-token</i>,<i>hook-device-number</i>"
+
+## About
+This Hook Hub integration is based off of the work BeckyR did here: <a href="https://github.com/beckyricha/smartthings-hook">https://github.com/beckyricha/smartthings-hook</a>
 
 ## Installation
 
