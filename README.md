@@ -19,7 +19,7 @@ Note: HookDevices is a SmartThings device handler, which works only for toggle o
     * Click "Add new repository"
     * Fill in the details:
         - Owner: "michaelsouellette"
-        - Name: "Hook"
+        - Name: "smartthings-hook"
         - Branch: "master"
     * Click the blue "Save" button above the editor window.
     * Click the "Publish" button next to it and select "For Me". You have now self-published your smart device handler.
